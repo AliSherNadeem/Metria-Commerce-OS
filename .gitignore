@@ -10,8 +10,6 @@ build/
 dist/
 
 # Environment variables and secrets
-.env
-.env.*
 !.env.example
 
 # Logs
@@ -29,7 +27,6 @@ coverage/
 .nyc_output/
 
 # Editor files
-.vscode/
 .idea/
 *.swp
 *.swo
@@ -41,3 +38,4 @@ desktop.ini
 
 # Vercel
 .vercel/
+config.bat

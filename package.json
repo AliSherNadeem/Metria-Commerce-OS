@@ -1,0 +1,28 @@
+{
+  "name": "metria-commerce-os",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "node init && next dev --webpack",
+    "build": "node init && next build",
+    "start": "node init && next start",
+    "lint": "eslint"
+  },
+  "dependencies": {
+    "@tailwindcss/postcss": "^4",
+    "framer-motion": "^12.23.12",
+    "lucide-react": "^0.468.0",
+    "next": "16.3.4",
+    "react": "19.2.8",
+    "react-dom": "19.2.8",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.3.4"
+  }
+}
